@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:qual="http://www.sbml.org/sbml/level3/version1/qual/version1" level="3" version="1" qual:required="true">
+  <model>
+    <listOfCompartments>
+      <compartment id="Default" name="Default" constant="false"/>
+    </listOfCompartments>
+    <qual:listOfQualitativeSpecies>
+      <qual:qualitativeSpecies qual:id="SOS" qual:compartment="Default" qual:constant="false" qual:name="SOS"/>
+      <qual:qualitativeSpecies qual:id="MYC" qual:compartment="Default" qual:constant="false" qual:name="MYC"/>
+      <qual:qualitativeSpecies qual:id="Growth_Arrest" qual:compartment="Default" qual:constant="false" qual:name="Growth_Arrest"/>
+      <qual:qualitativeSpecies qual:id="RAF" qual:compartment="Default" qual:constant="false" qual:name="RAF"/>
+      <qual:qualitativeSpecies qual:id="FOXO3" qual:compartment="Default" qual:constant="false" qual:name="FOXO3"/>
+      <qual:qualitativeSpecies qual:id="Proliferation" qual:compartment="Default" qual:constant="false" qual:name="Proliferation"/>
+      <qual:qualitativeSpecies qual:id="PKC" qual:compartment="Default" qual:constant="false" qual:name="PKC"/>
+      <qual:qualitativeSpecies qual:id="MTK1" qual:compartment="Default" qual:constant="false" qual:name="MTK1"/>
+      <qual:qualitativeSpecies qual:id="FGFR3" qual:compartment="Default" qual:constant="false" qual:name="FGFR3"/>
+      <qual:qualitativeSpecies qual:id="TAK1" qual:compartment="Default" qual:constant="false" qual:name="TAK1"/>
+      <qual:qualitativeSpecies qual:id="PTEN" qual:compartment="Default" qual:constant="false" qual:name="PTEN"/>
+      <qual:qualitativeSpecies qual:id="RSK" qual:compartment="Default" qual:constant="false" qual:name="RSK"/>
+      <qual:qualitativeSpecies qual:id="Apoptosis" qual:compartment="Default" qual:constant="false" qual:name="Apoptosis"/>
+      <qual:qualitativeSpecies qual:id="PPP2CA" qual:compartment="Default" qual:constant="false" qual:name="PPP2CA"/>
+      <qual:qualitativeSpecies qual:id="FRS2" qual:compartment="Default" qual:constant="false" qual:name="FRS2"/>
+      <qual:qualitativeSpecies qual:id="JUN" qual:compartment="Default" qual:constant="false" qual:name="JUN"/>
+      <qual:qualitativeSpecies qual:id="FOS" qual:compartment="Default" qual:constant="false" qual:name="FOS"/>
+      <qual:qualitativeSpecies qual:id="DUSP1" qual:compartment="Default" qual:constant="false" qual:name="DUSP1"/>
+      <qual:qualitativeSpecies qual:id="p70" qual:compartment="Default" qual:constant="false" qual:name="p70"/>
+      <qual:qualitativeSpecies qual:id="SMAD" qual:compartment="Default" qual:constant="false" qual:name="SMAD"/>
+      <qual:qualitativeSpecies qual:id="GADD45" qual:compartment="Default" qual:constant="false" qual:name="GADD45"/>
+      <qual:qualitativeSpecies qual:id="ERK" qual:compartment="Default" qual:constant="false" qual:name="ERK"/>
+      <qual:qualitativeSpecies qual:id="TGFBR" qual:compartment="Default" qual:constant="false" qual:name="TGFBR"/>
+      <qual:qualitativeSpecies qual:id="MEK1_2" qual:compartment="Default" qual:constant="false" qual:name="MEK1_2"/>
+      <qual:qualitativeSpecies qual:id="EGFR" qual:compartment="Default" qual:constant="false" qual:name="EGFR"/>
+      <qual:qualitativeSpecies qual:id="p53" qual:compartment="Default" qual:constant="false" qual:name="p53"/>
+      <qual:qualitativeSpecies qual:id="PLCG" qual:compartment="Default" qual:constant="false" qual:name="PLCG"/>
+      <qual:qualitativeSpecies qual:id="CREB" qual:compartment="Default" qual:constant="false" qual:name="CREB"/>
+      <qual:qualitativeSpecies qual:id="GRB2" qual:compartment="Default" qual:constant="false" qual:name="GRB2"/>
+      <qual:qualitativeSpecies qual:id="MDM2" qual:compartment="Default" qual:constant="false" qual:name="MDM2"/>
+      <qual:qualitativeSpecies qual:id="RAS" qual:compartment="Default" qual:constant="false" qual:name="RAS"/>
+      <qual:qualitativeSpecies qual:id="MSK" qual:compartment="Default" qual:constant="false" qual:name="MSK"/>
+      <qual:qualitativeSpecies qual:id="ELK1" qual:compartment="Default" qual:constant="false" qual:name="ELK1"/>
+      <qual:qualitativeSpecies qual:id="AKT" qual:compartment="Default" qual:constant="false" qual:name="AKT"/>
+      <qual:qualitativeSpecies qual:id="SPRY" qual:compartment="Default" qual:constant="false" qual:name="SPRY"/>
+      <qual:qualitativeSpecies qual:id="MAP3K1_3" qual:compartment="Default" qual:constant="false" qual:name="MAP3K1_3"/>
+      <qual:qualitativeSpecies qual:id="GAB1" qual:compartment="Default" qual:constant="false" qual:name="GAB1"/>
+      <qual:qualitativeSpecies qual:id="AP1" qual:compartment="Default" qual:constant="false" qual:name="AP1"/>
+      <qual:qualitativeSpecies qual:id="TAOK" qual:compartment="Default" qual:constant="false" qual:name="TAOK"/>
+      <qual:qualitativeSpecies qual:id="MAX" qual:compartment="Default" qual:constant="false" qual:name="MAX"/>
+      <qual:qualitativeSpecies qual:id="BCL2" qual:compartment="Default" qual:constant="false" qual:name="BCL2"/>
+      <qual:qualitativeSpecies qual:id="p38" qual:compartment="Default" qual:constant="false" qual:name="p38"/>
+      <qual:qualitativeSpecies qual:id="p21" qual:compartment="Default" qual:constant="false" qual:name="p21"/>
+      <qual:qualitativeSpecies qual:id="ATF2" qual:compartment="Default" qual:constant="false" qual:name="ATF2"/>
+      <qual:qualitativeSpecies qual:id="PDK1" qual:compartment="Default" qual:constant="false" qual:name="PDK1"/>
+      <qual:qualitativeSpecies qual:id="PI3K" qual:compartment="Default" qual:constant="false" qual:name="PI3K"/>
+      <qual:qualitativeSpecies qual:id="p14" qual:compartment="Default" qual:constant="false" qual:name="p14"/>
+      <qual:qualitativeSpecies qual:id="ATM" qual:compartment="Default" qual:constant="false" qual:name="ATM"/>
+      <qual:qualitativeSpecies qual:id="JNK" qual:compartment="Default" qual:constant="false" qual:name="JNK"/>
+    </qual:listOfQualitativeSpecies>
+    <qual:listOfTransitions>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="RSK" qual:transitionEffect="none" qual:sign="negative"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="SOS" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="GRB2" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="SOS" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="MSK" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="MYC" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="MAX" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="MYC" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="AKT" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="MYC" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="p21" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="Growth_Arrest" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="RAS" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="RAF" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="PKC" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="RAF" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="AKT" qual:transitionEffect="none" qual:sign="negative"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="RAF" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="ERK" qual:transitionEffect="none" qual:sign="negative"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="RAF" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="JNK" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="FOXO3" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="AKT" qual:transitionEffect="none" qual:sign="negative"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="FOXO3" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="p21" qual:transitionEffect="none" qual:sign="negative"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="Proliferation" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="MYC" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="Proliferation" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="p70" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="Proliferation" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="PLCG" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="PKC" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="GADD45" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="MTK1" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="GRB2" qual:transitionEffect="none" qual:sign="negative"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="FGFR3" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="PKC" qual:transitionEffect="none" qual:sign="negative"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="FGFR3" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="TGFBR" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="TAK1" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="p53" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="PTEN" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="ERK" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="RSK" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="BCL2" qual:transitionEffect="none" qual:sign="negative"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="Apoptosis" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="p53" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="Apoptosis" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="FOXO3" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="Apoptosis" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="ERK" qual:transitionEffect="none" qual:sign="negative"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="Apoptosis" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="p38" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="PPP2CA" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="FGFR3" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="FRS2" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="GRB2" qual:transitionEffect="none" qual:sign="negative"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="FRS2" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="SPRY" qual:transitionEffect="none" qual:sign="negative"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="FRS2" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="JNK" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="JUN" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="RSK" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="FOS" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="ELK1" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="FOS" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="CREB" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="FOS" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="ERK" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="FOS" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="CREB" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="DUSP1" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="PDK1" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="p70" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="ERK" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="p70" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="TGFBR" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="SMAD" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="SMAD" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="GADD45" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="p53" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="GADD45" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="MEK1_2" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="ERK" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="RAF" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="MEK1_2" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="PPP2CA" qual:transitionEffect="none" qual:sign="negative"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="MEK1_2" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="AP1" qual:transitionEffect="none" qual:sign="negative"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="MEK1_2" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="MAP3K1_3" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="MEK1_2" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="GRB2" qual:transitionEffect="none" qual:sign="negative"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="EGFR" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="SPRY" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="EGFR" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="PKC" qual:transitionEffect="none" qual:sign="negative"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="EGFR" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="MDM2" qual:transitionEffect="none" qual:sign="negative"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="p53" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="p38" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="p53" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="ATM" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="p53" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="FGFR3" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="PLCG" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="EGFR" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="PLCG" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="MSK" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="CREB" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="TGFBR" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="GRB2" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="FRS2" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="GRB2" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="EGFR" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="GRB2" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="p53" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="MDM2" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="p14" qual:transitionEffect="none" qual:sign="negative"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="MDM2" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="AKT" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="MDM2" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="SOS" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="RAS" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="PLCG" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="RAS" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="p38" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="MSK" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="ERK" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="MSK" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="JNK" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="ELK1" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="p38" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="ELK1" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="ERK" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="ELK1" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="PDK1" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="AKT" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="PTEN" qual:transitionEffect="none" qual:sign="negative"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="AKT" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="ERK" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="SPRY" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="RAS" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="MAP3K1_3" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="GRB2" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="GAB1" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="PI3K" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="GAB1" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="ATF2" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="AP1" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="JUN" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="AP1" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="FOS" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="AP1" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="ATM" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="TAOK" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="p38" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="MAX" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="CREB" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="BCL2" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="AKT" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="BCL2" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="TAOK" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="p38" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="DUSP1" qual:transitionEffect="none" qual:sign="negative"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="p38" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="MTK1" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="p38" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="TAK1" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="p38" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="MAP3K1_3" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="p38" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="p53" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="p21" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="AKT" qual:transitionEffect="none" qual:sign="negative"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="p21" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="JNK" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="ATF2" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="p38" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="ATF2" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="PI3K" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="PDK1" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="SOS" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="PI3K" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="RAS" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="PI3K" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="GAB1" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="PI3K" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="MYC" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="p14" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="TAOK" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="JNK" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="DUSP1" qual:transitionEffect="none" qual:sign="negative"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="JNK" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="MTK1" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="JNK" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="TAK1" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="JNK" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition>
+        <qual:listOfInputs>
+          <qual:input qual:qualitativeSpecies="MAP3K1_3" qual:transitionEffect="none" qual:sign="positive"/>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="JNK" qual:transitionEffect="production" qual:outputLevel="1"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="1"/>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+    </qual:listOfTransitions>
+  </model>
+</sbml>

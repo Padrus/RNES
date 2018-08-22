@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "RNESCLI": {
+      "commandName": "Project",
+      "commandLineArgs": "TestResources\\MAPK_Cancer_Fate_Network.sbml_Clean.sbml TestResources\\MAPK_Cancer_Fate_Network.sbml_Clean_Simplified.sbml TestResources\\MAPKDrugsMap.json TestResources\\MAPKTargetPhenotypes.json"
+    }
+  }
+}

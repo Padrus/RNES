@@ -1,0 +1,19 @@
+{
+  "DrugsList": [
+    {
+      "Id": "AKT_inhibitor",
+      "TargetId": "AKT",
+      "Effect": 1
+    },
+	{
+      "Id": "VEGFA_activator",
+      "TargetId": "VEGFA",
+      "Effect": 0
+    },
+	{
+      "Id": "MAP2K_inhibitor",
+      "TargetId": "MAP2K",
+      "Effect": 1
+    }
+  ]
+}

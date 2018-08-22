@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RNESCLI", "RNESCLI\RNESCLI.csproj", "{1957C3E2-123E-4E0A-A932-CD152A2AB97C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RNESlib", "RNESlib\RNESlib.csproj", "{9E34EBEA-105C-4A75-80E5-3D151794601B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1957C3E2-123E-4E0A-A932-CD152A2AB97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1957C3E2-123E-4E0A-A932-CD152A2AB97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1957C3E2-123E-4E0A-A932-CD152A2AB97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1957C3E2-123E-4E0A-A932-CD152A2AB97C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E34EBEA-105C-4A75-80E5-3D151794601B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E34EBEA-105C-4A75-80E5-3D151794601B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E34EBEA-105C-4A75-80E5-3D151794601B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E34EBEA-105C-4A75-80E5-3D151794601B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F46B787-1A87-4696-84E6-E4E5F27402AC}
+	EndGlobalSection
+EndGlobal

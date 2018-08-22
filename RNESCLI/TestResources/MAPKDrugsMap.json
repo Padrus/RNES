@@ -1,0 +1,9 @@
+{
+  "DrugsList": [
+    {
+      "Id": "AKT_inhibitor",
+      "TargetId": "AKT",
+      "Effect": 1
+    }
+  ]
+}

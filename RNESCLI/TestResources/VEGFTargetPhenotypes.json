@@ -1,0 +1,13 @@
+{
+  "PhenotypesList": [
+    {
+      "PhenotypeId": "Proliferation",
+      "Effect": 1
+    },
+	  {
+      "PhenotypeId": "Survival",
+      "Effect": 1
+    }
+	
+  ]
+}
